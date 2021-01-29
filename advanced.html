@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <head>
+    <title>Search</title>
+  </head>
+  <body>
+    <div class="advanced-section">
+      <nav class="advanced-nav">
+        <div>
+          <a href="index.html"><img src="small.png" alt="google logo" /></a>
+        </div>
+        <div class="right">
+          <a class="link" href="index.html">Back</a>
+        </div>
+      </nav>
+      <div class="advanced-text"><p>Advanced Search</p></div>
+      <div class="line"></div>
+      <div class="content">
+        <div class="heading">Find pages with...</div>
+        <form class="advanced-form" action="https://google.com/search">
+          <div class="labels">
+            <label class="advanced-label" for="q">all these words: </label>
+            <label class="advanced-label" for="as_epq"
+              >this exact word or phrase:</label
+            >
+            <label class="advanced-label" for="as_oq"
+              >any of these words:</label
+            >
+            <label class="advanced-label" for="as_eq"
+              >none of these words:</label
+            >
+          </div>
+          <div class="inputs">
+            <input class="advanced-input" type="text" name="q" />
+            <input class="advanced-input" type="text" name="as_epq" />
+            <input class="advanced-input" type="text" name="as_oq" />
+            <input class="advanced-input" type="text" name="as_eq" />
+            <input class="advanced-btn" type="submit" value="Advanced Search" />
+          </div>
+          <div class="info">
+            <h5>To do this in the search box.</h5>
+            <p class="info-text">
+              Type the important words: tri-colour rat terrier
+            </p>
+            <p class="info-text">Put exact words in quotes: "rat terrier"</p>
+            <p class="info-text">
+              Type OR between all the words you want: miniature OR standard
+            </p>
+            <p class="info-text">
+              Put a minus sign just before words that you don't want: -rodent,
+              -"Jack Russell"
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
